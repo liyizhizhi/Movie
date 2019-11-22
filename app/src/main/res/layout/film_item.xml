@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorYingYuan"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:id="@+id/filmreview_head"
+        android:layout_width="44dp"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/filmreview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp" />
+
+    <RatingBar
+        android:background="#141931"
+        android:id="@+id/filmreview_rating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:progressBackgroundTint="#ffffff"
+        android:progressTint="@color/colorAccent"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/filmreview_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/filmreview_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginLeft="207dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/filmreview_content"
+        android:layout_width="312dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/dianzan_1"
+        android:id="@+id/dianzan"
+        />
+
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/filmreview_header"
+        />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/filmreview_replynum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="160dp" />
+</RelativeLayout>

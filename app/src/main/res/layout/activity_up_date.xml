@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorYingYuan"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.activity.UpDateActivity">
+<ImageView
+    android:id="@+id/up_image"
+    android:background="@drawable/geng"
+    android:layout_width="150dp"
+    android:layout_height="150dp"></ImageView>
+    <TextView
+        android:text="最新版本"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="V  2.0"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        android:background="@drawable/beis"
+        android:textColor="#FFFFFF"
+        android:id="@+id/bt_pause"
+        />
+<Button
+    android:id="@+id/up_but"
+    android:background="@drawable/beis"
+    android:layout_width="wrap_content"
+    android:textColor="#ffffff"
+    android:text="下载"
+    android:layout_height="wrap_content"></Button>
+</LinearLayout>

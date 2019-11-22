@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorYingYuan"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/movie_dingwei"/>
+
+        <TextView
+            android:id="@+id/info_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#deffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/phone"/>
+
+        <TextView
+            android:id="@+id/info_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#deffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乘车路线"
+        android:textSize="@dimen/sp_12"
+        android:textColor="#deffffff"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="24dp"/>
+
+    <TextView
+        android:id="@+id/info_vehicleRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="@dimen/sp_12"
+        android:textColor="#deffffff"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="24dp"/>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.RegisterActivity">
+<LinearLayout
+    android:layout_weight="5"
+    android:background="@mipmap/bei"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#141931"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="312dp"
+                android:layout_height="44dp"
+                android:hint="请输入昵称"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#999999"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/kuangs"
+                android:id="@+id/register_name"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:background="@drawable/kuangs"
+                android:layout_width="312dp"
+                android:textColor="#FFFFFF"
+                android:layout_height="44dp"
+                android:hint="请输入邮箱账号"
+                android:textColorHint="#999999"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/register_email"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:background="@drawable/kuangs"
+                android:layout_width="312dp"
+                android:layout_height="44dp"
+                android:hint="请设置密码"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#999999"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/register_pwd"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:background="@drawable/kuangs"
+                android:layout_width="312dp"
+                android:layout_height="44dp"
+                android:hint="请输入验证码"
+                android:textColorHint="#999999"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/register_verification"
+                />
+
+            <Button
+                android:id="@+id/register_huoqu"
+                android:layout_width="96dp"
+                android:layout_height="44dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/beis"
+                android:text="获取验证码"
+                android:layout_marginTop="10dp"
+                android:textColor="#DDFFFFFF"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已有账号，立即登录"
+                android:textColor="#999999"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="100dp"
+                android:id="@+id/jump_login"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="312dp"
+                android:layout_height="44dp"
+                android:background="@drawable/beis"
+                android:text="注册"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="12dp"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

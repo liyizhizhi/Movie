@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorYingYuan"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.TheaterActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buyMovieTicket_name"
+        android:layout_marginTop="37dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#d8d8d8" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+                android:id="@+id/theater_shipin"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="24dp"
+                    android:id="@+id/buyMovieTicket_name_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#fff"
+                    android:text="时长" />
+                <TextView
+
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="127dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#fff"
+                    android:text="评分" />
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="216dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#fff"
+                    android:text="导演" />
+                <TextView
+                    android:layout_marginTop="63dp"
+                    android:layout_marginLeft="24dp"
+                    android:id="@+id/buyMovieTicket_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_marginTop="63dp"
+                    android:layout_marginLeft="127dp"
+                    android:id="@+id/buyMovieTicket_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_marginTop="63dp"
+                    android:layout_marginLeft="216dp"
+                    android:id="@+id/buyMovieTicket_director"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:background="#1c2243"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp">
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/text_region"
+                        android:textColor="#fff"
+                        android:text="海淀区"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/text_data"
+                        android:textColor="#fff"
+                        android:text="选择日期"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/text_price"
+                        android:textColor="#fff"
+                        android:text="价格最低"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_movieTicketItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:src="@drawable/shape"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="28dp"
+        android:id="@+id/buyMovieTicket_back"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+</RelativeLayout>

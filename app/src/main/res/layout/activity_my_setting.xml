@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorYingYuan"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MySettingActivity">
+
+    <ImageView
+        android:id="@+id/setting_back"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/shape" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="设置"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="88dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:cardBackgroundColor="#1c2243">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="清除缓存"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="20dp"
+            android:text="10M"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="54dp"
+            android:text="版本更新"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:id="@+id/gengxin"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="54dp"
+            android:src="@drawable/shape2" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+        app:cardBackgroundColor="#1c2243">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="重置密码"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shape2" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="312dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242dp"
+        app:cardBackgroundColor="#1c2243">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="20dp"
+            android:text="退出登录"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

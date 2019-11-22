@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="312dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:background="#1c2243">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/tjyy_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tjyy_name"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="63dp"
+            android:textColor="#deffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tjyy_price"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="21dp"
+            android:textColor="#deffffff"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</LinearLayout>

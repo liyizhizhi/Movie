@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorYingYuan"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SelectionActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/selection_fan"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/shape"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="36dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="111111"
+                    android:textSize="@dimen/sp_16"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="36dp"
+                    android:id="@+id/ticket_name"
+                    />
+            </RelativeLayout>
+
+
+
+            <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+                android:id="@+id/ticket_shipin"
+                android:layout_width="380dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                />
+
+<LinearLayout
+    android:layout_width="380dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/jianbian"
+    android:layout_height="154dp">
+</LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="380dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-80dp"
+                android:id="@+id/xuanzuo"
+                ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:text="选择影厅和时间"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ticket_recy"
+                android:layout_marginLeft="24dp"
+                ></androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e8185e"
+        android:text="￥10000"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/ticket_btn"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

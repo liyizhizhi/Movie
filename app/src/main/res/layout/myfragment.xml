@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#141931">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/mybei">
+            <TextView
+                android:text="我的"
+                android:layout_marginTop="10dp"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="150dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"></TextView>
+            <ImageView
+                android:src="@mipmap/xinxi"
+                android:layout_width="26dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="23dp"
+                android:layout_height="20dp" />
+
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/header_image"
+                android:layout_marginTop="5dp"
+                android:layout_width="75dp"
+                android:background="@mipmap/wd1"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:text="电影故事"
+                android:textSize="28dp"
+                android:textColor="#000"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="27dp"
+                android:src="@mipmap/shape" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="#1c2243"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:src="@mipmap/wddyp"
+                android:layout_marginTop="15dp"
+                android:layout_width="28dp"
+                android:layout_height="24dp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="24dp"
+                android:text="电影票"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@mipmap/ww"
+                android:layout_marginTop="13dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="200dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="393dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#141931"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="350dp" android:baselineAligned="false" 
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1c2243">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/wd11" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/yue1" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/wd33" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:baselineAligned="false" android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1c2243">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/wd4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/wd5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/wd6" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp" android:baselineAligned="false" 
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1c2243">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/my_shezhi"
+                        android:layout_width="48dp"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/wd7" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"></LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorYingYuan"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SearchActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/shape"
+            android:id="@+id/search_back"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_movie_thekeyword"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/kuangs"
+                android:hint="请输入影片关键字"
+                android:textColorHint="#FFFFFF"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:textColor="#fff"
+                />
+
+            <ImageView
+                android:id="@+id/iv_search_movie"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="42dp"
+                android:src="@drawable/movie_sou"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="312dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_thekeyword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
+</LinearLayout>
